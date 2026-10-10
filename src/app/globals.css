@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-cream text-ink antialiased}
+:focus-visible{outline:3px solid #5a9e3f;outline-offset:2px}
+@layer components{.btn{@apply inline-flex items-center gap-2 rounded-xl bg-forest px-4 py-2 font-medium text-white hover:bg-leaf disabled:opacity-50}
+.btn2{@apply inline-flex items-center gap-2 rounded-xl border border-forest px-4 py-2 font-medium text-forest hover:bg-white}
+.card{@apply rounded-2xl bg-white p-5 shadow-sm border border-earth/20}
+.inp{@apply w-full rounded-xl border border-earth/40 bg-white px-3 py-2}}

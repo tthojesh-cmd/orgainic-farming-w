@@ -1,0 +1,584 @@
+{
+ "crops": [
+  {
+   "id": "rice",
+   "t": {
+    "en": "Rice (Paddy)",
+    "te": "వరి"
+   },
+   "d": "Warm-season cereal usually grown with standing water or alternate wetting and drying.",
+   "k": "rice paddy cereal vari",
+   "p": [
+    "Climate/season: varies by region (kharif/rabi); check local calendar",
+    "Soil: puddled clay or clay-loam soils retain water",
+    "Seed: use healthy, locally adapted, certified organic or untreated seed",
+    "Nutrients: compost, green manure (e.g. dhaincha), biofertilizers per soil test",
+    "Weeds: timely hand/mechanical weeding, water management",
+    "Rotation: follow with a pulse to restore soil nitrogen",
+    "Common mistake: continuous flooding or crowded planting that encourages disease"
+   ],
+   "s": "kharif"
+  },
+  {
+   "id": "wheat",
+   "t": {
+    "en": "Wheat",
+    "te": "గోధుమ"
+   },
+   "d": "Cool-season cereal grown on well-drained loam soils.",
+   "k": "wheat cereal godhuma",
+   "p": [
+    "Season: cool/rabi season; sowing dates vary by region",
+    "Soil: well-drained loam; avoid waterlogging",
+    "Nutrients: well-matured compost and green manure preceding crop",
+    "Rotation: rotate with legumes",
+    "Check local varieties and recommendations"
+   ],
+   "s": "rabi"
+  },
+  {
+   "id": "maize",
+   "t": {
+    "en": "Maize",
+    "te": "మొక్కజొన్న"
+   },
+   "d": "Fast-growing cereal that responds to good soil organic matter and moisture.",
+   "k": "maize corn mokkajonna",
+   "p": [
+    "Season: kharif or rabi depending on region",
+    "Intercrop with pulses where suitable",
+    "Nutrients: compost and legume rotation, based on soil test",
+    "Watch for fall armyworm; scout early and consult extension office"
+   ],
+   "s": "kharif rabi"
+  },
+  {
+   "id": "millets",
+   "t": {
+    "en": "Millets",
+    "te": "చిరుధాన్యాలు"
+   },
+   "d": "Hardy, drought-tolerant grains suited to low-rainfall areas and poorer soils.",
+   "k": "millet ragi jowar bajra korra chirudhanyalu",
+   "p": [
+    "Often grown rainfed; choose locally adapted types",
+    "Mix with pulses as intercrop for stability",
+    "Low input needs; compost improves yield stability"
+   ],
+   "s": "kharif"
+  },
+  {
+   "id": "pulses",
+   "t": {
+    "en": "Pulses & Legumes",
+    "te": "పప్పుధాన్యాలు"
+   },
+   "d": "Legumes fix atmospheric nitrogen and improve soil when rotated with cereals.",
+   "k": "pulses legumes gram pigeonpea lentil pappu",
+   "p": [
+    "Well-drained soil; avoid waterlogging",
+    "Rhizobium culture (approved biofertilizer) may help; follow product label",
+    "Rotate with cereals",
+    "Common mistake: over-irrigation causing root rot"
+   ],
+   "s": "kharif rabi"
+  },
+  {
+   "id": "vegetables",
+   "t": {
+    "en": "Vegetables",
+    "te": "కూరగాయలు"
+   },
+   "d": "Short-duration crops needing fertile, well-drained soil and steady moisture.",
+   "k": "vegetable tomato brinjal okra kuragayalu",
+   "p": [
+    "Use compost-rich beds and mulching",
+    "Rotate across plant families (e.g. avoid tomato after brinjal)",
+    "Scout weekly for pests and diseases",
+    "Use physical barriers and traps before any treatment"
+   ],
+   "s": "kharif rabi summer"
+  },
+  {
+   "id": "fruits",
+   "t": {
+    "en": "Fruits",
+    "te": "పండ్లు"
+   },
+   "d": "Perennial fruit trees and plants that need long-term soil care.",
+   "k": "fruit mango banana papaya pandlu",
+   "p": [
+    "Site and variety must match local climate",
+    "Mulch basins; compost applied around the root zone",
+    "Prune for airflow and sanitation"
+   ],
+   "s": "all"
+  },
+  {
+   "id": "oilseeds",
+   "t": {
+    "en": "Oilseeds",
+    "te": "నూనె గింజలు"
+   },
+   "d": "Groundnut, sesame, sunflower and similar crops.",
+   "k": "oilseed groundnut sesame sunflower nune",
+   "p": [
+    "Well-drained light soils for groundnut",
+    "Rotate with cereals",
+    "Store dry to avoid mould"
+   ],
+   "s": "kharif rabi"
+  },
+  {
+   "id": "spices",
+   "t": {
+    "en": "Spices",
+    "te": "సుగంధ ద్రవ్యాలు"
+   },
+   "d": "Chilli, turmeric, ginger and others needing rich organic soil.",
+   "k": "spice chilli turmeric ginger mirapa pasupu",
+   "p": [
+    "Rich, well-drained soil with plentiful compost",
+    "Mulching conserves moisture",
+    "Use healthy planting material to avoid rhizome/seed-borne disease"
+   ],
+   "s": "kharif"
+  }
+ ],
+ "fertilizers": [
+  {
+   "id": "compost",
+   "t": {
+    "en": "Plant-based Compost",
+    "te": "కంపోస్ట్"
+   },
+   "d": "Decomposed plant residues that add organic matter and slow-release nutrients.",
+   "k": "compost fertilizer erubu",
+   "p": [
+    "Purpose: improve soil structure and supply nutrients",
+    "Use only well-matured compost",
+    "Store covered, away from waterlogging",
+    "Application amount depends on crop, soil test and local guidance"
+   ],
+   "s": ""
+  },
+  {
+   "id": "vermicompost",
+   "t": {
+    "en": "Vermicompost",
+    "te": "వర్మీకంపోస్ట్"
+   },
+   "d": "Compost made by earthworms from plant waste.",
+   "k": "vermicompost earthworm",
+   "p": [
+    "Rich in biologically active material",
+    "Keep beds moist and shaded; avoid extremes of heat",
+    "Use as per soil test; no universal rate"
+   ],
+   "s": ""
+  },
+  {
+   "id": "greenmanure",
+   "t": {
+    "en": "Green Manure",
+    "te": "పచ్చిరొట్ట ఎరువు"
+   },
+   "d": "Fast-growing crops (e.g. dhaincha, sunhemp) ploughed in to enrich soil.",
+   "k": "green manure dhaincha sunhemp pachirotta",
+   "p": [
+    "Legumes add nitrogen",
+    "Incorporate at the right growth stage before flowering",
+    "Needs moisture to decompose"
+   ],
+   "s": ""
+  },
+  {
+   "id": "covercrops",
+   "t": {
+    "en": "Cover Crops",
+    "te": "కవర్ పంటలు"
+   },
+   "d": "Crops grown to protect and feed the soil between main crops.",
+   "k": "cover crop erosion",
+   "p": [
+    "Reduce erosion and weeds",
+    "Choose species suited to your season"
+   ],
+   "s": ""
+  },
+  {
+   "id": "neem",
+   "t": {
+    "en": "Neem-based Inputs",
+    "te": "వేప ఉత్పత్తులు"
+   },
+   "d": "Neem cake and approved neem products used as soil amendments or pest aids.",
+   "k": "neem cake vepa",
+   "p": [
+    "Use only products approved for organic use in your area",
+    "Follow label directions; wear protection"
+   ],
+   "s": ""
+  },
+  {
+   "id": "biofert",
+   "t": {
+    "en": "Biological Fertilizers",
+    "te": "జీవ ఎరువులు"
+   },
+   "d": "Approved microbial products such as Rhizobium, Azotobacter and PSB.",
+   "k": "biofertilizer rhizobium azospirillum psb jeeva",
+   "p": [
+    "Check certification and expiry",
+    "Store cool; follow label instructions"
+   ],
+   "s": ""
+  }
+ ],
+ "pests": [
+  {
+   "id": "monitor",
+   "t": {
+    "en": "Monitoring & Early Detection",
+    "te": "పర్యవేక్షణ"
+   },
+   "d": "Regular field scouting catches pests before outbreaks.",
+   "k": "pest monitoring scouting purugu",
+   "p": [
+    "Walk the field weekly; check under leaves",
+    "Record what you find and when",
+    "Early action means less intervention"
+   ],
+   "s": ""
+  },
+  {
+   "id": "cultural",
+   "t": {
+    "en": "Crop Rotation & Intercropping",
+    "te": "పంట మార్పిడి"
+   },
+   "d": "Breaks pest life cycles and increases diversity.",
+   "k": "rotation intercropping pest",
+   "p": [
+    "Rotate across plant families",
+    "Limitations: needs planning and suitable markets"
+   ],
+   "s": ""
+  },
+  {
+   "id": "traps",
+   "t": {
+    "en": "Traps & Physical Barriers",
+    "te": "ఉచ్చులు"
+   },
+   "d": "Sticky traps, nets and hand-picking reduce pests without chemicals.",
+   "k": "trap net barrier sticky pheromone",
+   "p": [
+    "Useful for flying insects and early infestations",
+    "Limitation: does not eliminate heavy infestations"
+   ],
+   "s": ""
+  },
+  {
+   "id": "beneficials",
+   "t": {
+    "en": "Beneficial Insects & Habitat",
+    "te": "మిత్ర కీటకాలు"
+   },
+   "d": "Ladybirds, spiders and parasitic wasps naturally reduce pests.",
+   "k": "beneficial insects habitat ladybird",
+   "p": [
+    "Plant flowering border strips",
+    "Avoid harming beneficials with broad-spectrum products"
+   ],
+   "s": ""
+  },
+  {
+   "id": "neempest",
+   "t": {
+    "en": "Neem & Approved Biologicals",
+    "te": "వేప & జీవ నియంత్రణ"
+   },
+   "d": "Neem products and approved biopesticides can be part of an integrated plan.",
+   "k": "neem biological bt biopesticide",
+   "p": [
+    "Use only registered, organic-approved products",
+    "Follow label and safety precautions",
+    "Do not use unverified home mixtures"
+   ],
+   "s": ""
+  }
+ ],
+ "diseases": [
+  {
+   "id": "categories",
+   "t": {
+    "en": "Disease Categories",
+    "te": "వ్యాధి రకాలు"
+   },
+   "d": "Fungal, bacterial and viral diseases look different and need different handling.",
+   "k": "disease fungal bacterial viral vyadhi",
+   "p": [
+    "Observe spots, wilting, mould, curling",
+    "Compare with nutrient or water stress symptoms",
+    "Give crop, location, weather and a photo to an agronomist for diagnosis"
+   ],
+   "s": ""
+  },
+  {
+   "id": "prevention",
+   "t": {
+    "en": "Prevention",
+    "te": "నివారణ"
+   },
+   "d": "Healthy soil, clean seed, spacing and sanitation prevent most problems.",
+   "k": "disease prevention sanitation spacing",
+   "p": [
+    "Use healthy planting material",
+    "Space plants for airflow",
+    "Remove infected plant parts where appropriate",
+    "Avoid overhead watering late in the day"
+   ],
+   "s": ""
+  },
+  {
+   "id": "nutrientvsdisease",
+   "t": {
+    "en": "Disease or Nutrient Problem?",
+    "te": "వ్యాధా లేక పోషక లోపమా?"
+   },
+   "d": "Yellowing may come from disease, nutrient shortage, pests or water stress.",
+   "k": "yellow leaves nutrient deficiency",
+   "p": [
+    "Pattern matters: uniform vs patchy",
+    "Do a soil test",
+    "If unsure, consult your local extension officer"
+   ],
+   "s": ""
+  }
+ ],
+ "soil": [
+  {
+   "id": "soiltest",
+   "t": {
+    "en": "Soil Testing",
+    "te": "నేల పరీక్ష"
+   },
+   "d": "A soil test shows pH, organic matter and nutrient status.",
+   "k": "soil test pH",
+   "p": [
+    "Test before major pH or nutrient changes",
+    "Use a government or accredited lab"
+   ],
+   "s": ""
+  },
+  {
+   "id": "organicmatter",
+   "t": {
+    "en": "Organic Matter & Structure",
+    "te": "సేంద్రీయ పదార్థం"
+   },
+   "d": "Organic matter improves structure, water holding and soil life.",
+   "k": "organic matter structure",
+   "p": [
+    "Add compost and crop residues",
+    "Avoid unnecessary tillage"
+   ],
+   "s": ""
+  },
+  {
+   "id": "erosion",
+   "t": {
+    "en": "Mulching & Erosion Control",
+    "te": "మల్చింగ్"
+   },
+   "d": "Mulch and cover protect soil from erosion and moisture loss.",
+   "k": "mulch erosion moisture",
+   "p": [
+    "Use crop residues as mulch",
+    "Contour bunds on slopes"
+   ],
+   "s": ""
+  }
+ ],
+ "irrigation": [
+  {
+   "id": "methods",
+   "t": {
+    "en": "Irrigation Methods",
+    "te": "నీటి పారుదల పద్ధతులు"
+   },
+   "d": "Flood, furrow, sprinkler and drip each suit different crops and soils.",
+   "k": "irrigation method furrow sprinkler neellu",
+   "p": [
+    "Match method to crop and water availability",
+    "Irrigate by growth stage and soil moisture, not by habit"
+   ],
+   "s": ""
+  },
+  {
+   "id": "drip",
+   "t": {
+    "en": "Drip Irrigation Basics",
+    "te": "డ్రిప్"
+   },
+   "d": "Delivers water near roots, saving water.",
+   "k": "drip irrigation",
+   "p": [
+    "Needs filtration and maintenance",
+    "Good for vegetables, fruits and row crops"
+   ],
+   "s": ""
+  },
+  {
+   "id": "drainage",
+   "t": {
+    "en": "Drainage & Waterlogging",
+    "te": "నీటి ముంపు"
+   },
+   "d": "Poor drainage causes root disease and crop loss.",
+   "k": "drainage waterlogging",
+   "p": [
+    "Raised beds and drain channels help",
+    "Avoid irrigating just before heavy rain"
+   ],
+   "s": ""
+  },
+  {
+   "id": "rainwater",
+   "t": {
+    "en": "Rainwater Harvesting",
+    "te": "వర్షపు నీరు"
+   },
+   "d": "Farm ponds and bunds store rainfall for dry periods.",
+   "k": "rainwater harvesting pond",
+   "p": [
+    "Check local schemes and rules"
+   ],
+   "s": ""
+  }
+ ],
+ "compost": [
+  {
+   "id": "residue",
+   "t": {
+    "en": "Plant-residue Compost",
+    "te": "పంట వ్యర్థాల కంపోస్ట్"
+   },
+   "d": "Step-by-step compost from crop residues.",
+   "k": "compost residue pile",
+   "p": [
+    "1. Mix dry (brown) and fresh green plant materials",
+    "2. Build a pile in layers",
+    "3. Keep as moist as a wrung-out sponge",
+    "4. Turn periodically for air",
+    "5. Ready when dark, crumbly and earthy-smelling"
+   ],
+   "s": ""
+  },
+  {
+   "id": "dryleaf",
+   "t": {
+    "en": "Dry-leaf Compost",
+    "te": "ఎండు ఆకుల కంపోస్ట్"
+   },
+   "d": "Slow compost from fallen leaves.",
+   "k": "dry leaf compost",
+   "p": [
+    "Moisten leaves, stack in a pit or heap",
+    "Mix in some green material to speed up",
+    "Patience: takes longer"
+   ],
+   "s": ""
+  },
+  {
+   "id": "vermi",
+   "t": {
+    "en": "Vermicomposting",
+    "te": "వర్మీకంపోస్టింగ్"
+   },
+   "d": "Earthworm composting of plant waste.",
+   "k": "vermicomposting worm",
+   "p": [
+    "Shaded, moist bed",
+    "Avoid direct sun, waterlogging and very salty or oily waste"
+   ],
+   "s": ""
+  },
+  {
+   "id": "trouble",
+   "t": {
+    "en": "Troubleshooting Compost",
+    "te": "కంపోస్ట్ సమస్యలు"
+   },
+   "d": "Fix common problems.",
+   "k": "compost smell dry wet pests",
+   "p": [
+    "Bad smell: too wet/compacted — add dry material and turn",
+    "Not heating or slow: add greens and moisture",
+    "Too dry: sprinkle water"
+   ],
+   "s": ""
+  },
+  {
+   "id": "quality",
+   "t": {
+    "en": "Compost Maturity & Storage",
+    "te": "కంపోస్ట్ నాణ్యత"
+   },
+   "d": "Know when compost is finished and keep it well.",
+   "k": "compost maturity storage",
+   "p": [
+    "Mature compost is dark, crumbly, earthy",
+    "Store covered to avoid nutrient loss"
+   ],
+   "s": ""
+  }
+ ],
+ "seasonal": [
+  {
+   "id": "kharif",
+   "t": {
+    "en": "Kharif (monsoon) Season",
+    "te": "ఖరీఫ్"
+   },
+   "d": "Crops sown with monsoon rain, e.g. rice, maize, millets, pulses, groundnut.",
+   "k": "kharif monsoon season",
+   "p": [
+    "General guidance: dates vary by state",
+    "Watch fungal diseases and stem borers in humid weather",
+    "Ensure drainage"
+   ],
+   "s": "kharif"
+  },
+  {
+   "id": "rabi",
+   "t": {
+    "en": "Rabi (winter) Season",
+    "te": "రబీ"
+   },
+   "d": "Cool-season crops such as wheat, gram, mustard and some vegetables.",
+   "k": "rabi winter season",
+   "p": [
+    "General guidance: dates vary by state",
+    "Plan irrigation; check frost risk",
+    "Aphids common in cool weather"
+   ],
+   "s": "rabi"
+  },
+  {
+   "id": "summer",
+   "t": {
+    "en": "Summer Season",
+    "te": "వేసవి"
+   },
+   "d": "Short-duration crops where irrigation is assured.",
+   "k": "summer season zaid",
+   "p": [
+    "Mulch to save water",
+    "Monitor mites and heat stress"
+   ],
+   "s": "summer"
+  }
+ ]
+}
